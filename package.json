@@ -1,0 +1,21 @@
+{
+  "name": "g-font-crawler",
+  "version": "1.0.0",
+  "description": "Get fonts from gstate",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "font",
+    "crawler"
+  ],
+  "author": "freddycro",
+  "license": "ISC",
+  "dependencies": {
+    "cssjson": "^2.1.3",
+    "fs-extra": "^10.0.0",
+    "request": "^2.88.2"
+  }
+}

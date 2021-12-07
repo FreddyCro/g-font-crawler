@@ -1,0 +1,31 @@
+{
+  "api": {
+    "root": "https://fonts.googleapis.com/css2?family=",
+    "fonts": [
+      {
+        "fontDist": "../font/noto-sans-jp",
+        "filename": "noto-sans-jp",
+        "target": "Noto+Sans+JP",
+        "weight": [100, 300, 400, 500, 700, 900]
+      },
+      {
+        "fontDist": "../font/noto-sans-kr",
+        "filename": "noto-sans-kr",
+        "target": "Noto+Sans+KR",
+        "weight": [100, 300, 400, 500, 700, 900]
+      }
+    ]
+  },
+  "static": [
+    {
+      "fontDist": "../font/noto-sans-jp",
+      "filename": "noto-sans-jp",
+      "target": "noto-sans-jp.txt"
+    },
+    {
+      "fontDist": "../font/noto-sans-kr",
+      "filename": "noto-sans-kr",
+      "target": "noto-sans-kr.txt"
+    }
+  ]
+}
